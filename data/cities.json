@@ -1,0 +1,124 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "cd00",
+      "cityName": "Bergerac",
+      "country": "Pháp",
+      "emoji": "fr",
+      "date": "Thu Jun 06 2024 22:37:51 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 44.86365630540613,
+        "lng": 0.46142578125000006
+      }
+    },
+    {
+      "id": "06d9",
+      "cityName": "Tỉnh Hà Giang",
+      "country": "Việt Nam",
+      "emoji": "vn",
+      "date": "Thu Jun 06 2024 22:42:52 GMT+0700 (Indochina Time)",
+      "notes": "Amazing....",
+      "position": {
+        "lat": 22.682450015215057,
+        "lng": 105.29296875
+      }
+    },
+    {
+      "id": "82d8",
+      "cityName": "Oudomxay",
+      "country": "Lào",
+      "emoji": "la",
+      "date": "Thu Jun 06 2024 22:59:32 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 20.135891626114574,
+        "lng": 102.05749511718751
+      }
+    },
+    {
+      "id": "24ae",
+      "cityName": "Castile-La Mancha",
+      "country": "Tây Ban Nha",
+      "emoji": "es",
+      "date": "Thu Jun 06 2024 23:00:45 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 40.87406461663041,
+        "lng": -2.89215087890625
+      }
+    },
+    {
+      "id": "1ce7",
+      "cityName": "Quảng Tây",
+      "country": "Trung Quốc",
+      "emoji": "cn",
+      "date": "Thu Jun 06 2024 23:01:15 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 24.069036001915162,
+        "lng": 107.36938476562501
+      }
+    },
+    {
+      "id": "66bc",
+      "cityName": "Valencian Community",
+      "country": "Tây Ban Nha",
+      "emoji": "es",
+      "date": "Fri Jun 07 2024 02:44:54 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 40.0360265298117,
+        "lng": -0.30761718750000006
+      }
+    },
+    {
+      "id": "0837",
+      "cityName": "Aragon",
+      "country": "Tây Ban Nha",
+      "emoji": "es",
+      "date": "Fri Jun 07 2024 03:27:09 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 40.35282369083777,
+        "lng": -0.7196044921875001
+      }
+    }
+  ]
+}
