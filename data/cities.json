@@ -119,6 +119,18 @@
         "lat": 40.35282369083777,
         "lng": -0.7196044921875001
       }
+    },
+    {
+      "id": "8f7a",
+      "cityName": "Nouvelle-Aquitaine",
+      "country": "Pháp",
+      "emoji": "fr",
+      "date": "Sun Jun 09 2024 00:02:29 GMT+0700 (Indochina Time)",
+      "notes": "",
+      "position": {
+        "lat": 43.305193797650546,
+        "lng": -0.32135009765625006
+      }
     }
   ]
 }

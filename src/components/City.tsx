@@ -13,8 +13,7 @@ const City = () => {
 
   useEffect(() => {
     id && getCity(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id]);
+  }, [getCity, id]);
 
   if (!currentCity) return;
   if (isLoading) return <Spinner />;

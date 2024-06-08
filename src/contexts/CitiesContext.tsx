@@ -1,5 +1,11 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useContext, useEffect, useReducer } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useReducer,
+} from "react";
 import { BASE_URL } from "../components/constant";
 import { DataType } from "../components/model";
 
@@ -100,20 +106,23 @@ const CitiesProvider = ({ children }: CityProviderType) => {
     fetchCity();
   }, []);
 
-  const getCity = async (id: string) => {
-    if (id === currentCity?.id) return;
-    dispatch({ type: "loading" });
-    try {
-      const res = await fetch(`${BASE_URL}/cities/${id}`);
-      const data = (await res.json()) as DataType;
-      dispatch({ type: "city/loaded", payload: data });
-    } catch {
-      dispatch({
-        type: "rejected",
-        payload: "There was an error loading data...",
-      });
-    }
-  };
+  const getCity = useCallback(
+    async (id: string) => {
+      if (id === currentCity?.id) return;
+      dispatch({ type: "loading" });
+      try {
+        const res = await fetch(`${BASE_URL}/cities/${id}`);
+        const data = (await res.json()) as DataType;
+        dispatch({ type: "city/loaded", payload: data });
+      } catch {
+        dispatch({
+          type: "rejected",
+          payload: "There was an error loading data...",
+        });
+      }
+    },
+    [currentCity?.id]
+  );
 
   const createCity = async (newCity: Omit<DataType, "id">) => {
     dispatch({ type: "loading" });
